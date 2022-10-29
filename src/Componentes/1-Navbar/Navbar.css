@@ -29,6 +29,10 @@
     margin-left: 36px;
     
 }
+.nav-title:hover{
+    color: orange;
+    
+}
 .nav-link p:hover{
     color: orange;
 }

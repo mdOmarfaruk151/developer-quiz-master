@@ -5,6 +5,7 @@ import Blog from "./Componentes/Blog/Blog";
 import Statistics from "./Componentes/Statistics/Statistics";
 import Topics from "./Componentes/Topics/Topics";
 import Main from "./layout/Main";
+import Error from "./Componentes/Error-404/Error";
 
 function App() {
   const router = createBrowserRouter([
@@ -35,11 +36,16 @@ function App() {
         
       ]
     },
+    {
+      path: '*',
+      element:<Error></Error>
+    }
    
   ]);
 
   return (
     <div>
+      
       <RouterProvider router={router}></RouterProvider>
     </div>
   );
