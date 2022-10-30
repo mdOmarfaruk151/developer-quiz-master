@@ -12,7 +12,7 @@ function App() {
     {
       path: "/",
       element: <Main></Main>,
-      children:[
+      children: [
         {
           path: "/",
           element: <Home></Home>,
@@ -33,19 +33,16 @@ function App() {
           path: "/blog",
           element: <Blog></Blog>,
         },
-        
-      ]
+      ],
     },
     {
-      path: '*',
-      element:<Error></Error>
-    }
-   
+      path: "*",
+      element: <Error></Error>,
+    },
   ]);
 
   return (
     <div>
-      
       <RouterProvider router={router}></RouterProvider>
     </div>
   );
