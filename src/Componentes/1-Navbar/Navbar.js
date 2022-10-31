@@ -1,36 +1,49 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 import logo from "../images/choose-logo.png";
 
-const Navbar = () => {
-  return (
-    <nav className="nav-container">
-      <Link to={"/home"}>
-        <img src={logo} alt="" />
-      </Link>
 
-      <Link to={"/home"}>
+const Navbar = () => {
+
+  //! Active Navbar
+const navLinkStyles =({ isActive }) =>{
+   return{
+    fontWeight: isActive ? 'bold' : 'normal',
+    textDecoration: isActive ? 'underline' : 'none',
+    
+   }
+}
+
+  return (
+    <nav className="nav-container ">
+      <NavLink to={"/home"}>
+        <img src={logo} alt="" />
+      </NavLink>
+
+      <NavLink to={"/home"}>
         <p className="nav-title">Developer Quiz Master</p>
-      </Link>
+      </NavLink>
 
       <div className="nav-link">
-        <Link to={"/home"}>
+        <NavLink style={navLinkStyles} to={"/home"}>
           {" "}
           <p>Home</p>{" "}
-        </Link>
-        <Link to={"/topics"}>
+        </NavLink>
+        <NavLink style={navLinkStyles} to={"/topics"}>
           <p>Topics</p>
-        </Link>
-        <Link to={"/statistics"}>
+        </NavLink>
+        <NavLink style={navLinkStyles} to={"/statistics"}>
           {" "}
           <p>Statistics</p>{" "}
-        </Link>
-        <Link to={"/blog"}>
+        </NavLink>
+        <NavLink style={navLinkStyles} to={"/blog"}>
           <p>Blog</p>{" "}
-        </Link>
+        </NavLink>
       </div>
     </nav>
+
+    
   );
 };
 

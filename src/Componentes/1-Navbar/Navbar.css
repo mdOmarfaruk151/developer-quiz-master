@@ -22,9 +22,11 @@
   font-size: 20px;
   margin-left: 250px;
   font-weight: 700;
+  
 }
 .nav-link p {
   margin-left: 36px;
+  
 }
 .nav-title:hover {
   color: orange;
@@ -32,3 +34,4 @@
 .nav-link p:hover {
   color: orange;
 }
+
