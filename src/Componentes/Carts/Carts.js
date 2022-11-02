@@ -1,6 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { ArrowRightIcon } from '@heroicons/react/24/solid'
 
-const Carts = ({ cart }) => {
+ const Carts = ({ cart }) => {
   console.log(cart);
   const { id, name, logo, total } = cart;
   return (
@@ -11,9 +13,9 @@ const Carts = ({ cart }) => {
         </figure>
         <div className="card-body font-bold">
           <h2 className="card-title font-bold text-sky-700">{name}</h2>
-          <p className="">Total Question : {total}</p>
-          <div className="card-actions justify-end">
-            <button className="btn btn-primary">Start Practice</button>
+          <p className="font-bold ">Total Question : {total}</p>
+          <div className="card-actions justify-end ">
+            <button className="btn btn-primary "> <Link to={`/quiz/${id}`}>Start Practice  </Link> <ArrowRightIcon className="w-5 ml-1 "/></button>
           </div>
         </div>
       </div>

@@ -1,9 +1,19 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import Quiz from '../Quiz/Quiz';
+import Time from '../Timer/Time';
+import { useEffect, useState } from "react";
 
 const Topics = () => {
+   
+    const {q} =useContext(Quiz)
+ console.log(q)
+
+
     return (
-        <div>
-            <h4>topic</h4>
+        <div className='mx-auto w-96'>
+            <div className="font-bold right ">
+      <Time />
+      </div>
             
         </div>
     );

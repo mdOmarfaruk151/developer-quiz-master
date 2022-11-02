@@ -12,7 +12,7 @@ const Error = () => {
         Error! 404 Page Not Found !!!
         <Link to={"./home"}>
           <h1 className="text-center font-bold text-2xl font-sans mb-3 text-white hover:text-white-600 btn btn-error hover:btn-success ml-2">
-            Go Home
+            Back To Home
           </h1>
         </Link>
       </h1>

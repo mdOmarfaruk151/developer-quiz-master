@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 import logo from "../images/choose-logo.png";
+import Time from "../Timer/Time";
 
 
 const Navbar = () => {
@@ -24,6 +25,8 @@ const navLinkStyles =({ isActive }) =>{
       <NavLink to={"/home"}>
         <p className="nav-title">Developer Quiz Master</p>
       </NavLink>
+
+      
 
       <div className="nav-link">
         <NavLink style={navLinkStyles} to={"/home"}>

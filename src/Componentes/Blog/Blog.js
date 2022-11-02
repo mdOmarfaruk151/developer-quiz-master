@@ -95,8 +95,9 @@ mt-3 font-medium "
         <div className="collapse-title text-xl font-medium text-center bg-cyan-300 border-solid border-2 border-sky-300">
           3. What is use for useRef ?
         </div>
-        <hr />
+        
         <div className="collapse-content">
+        <hr />
           <p
             className="font-sans
 mt-3 font-medium "
