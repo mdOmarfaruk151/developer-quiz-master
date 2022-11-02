@@ -38,7 +38,7 @@ const Statistics = () => {
       <div className="flex mb-20 justify-center ">
         {/* //! Line Chart */}
         <div className="border-solid border-2 border-sky-500 font-sans mr-2 rounded-xl bg-sky-50 font-bold  ">
-          <h1 className="text-center mb-3 mt-2 ">Line Chart</h1>
+          <p className="text-center mb-3 mt-2 ">Line Chart</p>
 
           <LineChart
             width={500}
@@ -62,7 +62,7 @@ const Statistics = () => {
 
         {/* //! Bar Chart */}
         <div className="border-solid border-2 border-sky-500 font-sans ml-2 rounded-xl bg-sky-50 font-bold ">
-          <h1 className="text-center mb-3 mt-2 ">Bar Chart</h1>
+          <p className="text-center mb-3 mt-2 ">Bar Chart</p>
           <BarChart width={500} height={300} data={charts}>
             <Bar dataKey="Total" fill="#8884d8" />
             <XAxis dataKey="Name" />

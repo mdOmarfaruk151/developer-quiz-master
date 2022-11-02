@@ -3,7 +3,7 @@ import { useLoaderData } from "react-router-dom";
 import Quiz from "../Quiz/Quiz";
 import ansPic from "../images/My-Answer.png";
 
-export const QuizDetailsa = () => {
+ const QuizDetailsa = () => {
   const quizesDetails = useLoaderData();
   const qs = quizesDetails.data.questions;
   const data = quizesDetails.data;
@@ -11,6 +11,7 @@ export const QuizDetailsa = () => {
 
   return (
     <div>
+      
       {/* //! Quiz Page Title */}
       <h1 className="text-center">
         Quiz of <span className="text-sky-700 ">{quizesDetails.data.name}</span>
@@ -22,7 +23,7 @@ export const QuizDetailsa = () => {
           <Quiz key={q.id} q={q} data={data}></Quiz>
         ))}
       </div>
-
+      
       <div className="quiz-result-side-bar"></div>
     </div>
   );

@@ -1,12 +1,18 @@
-import React from "react";
+import React, { createContext } from "react";
 import { Link } from "react-router-dom";
 import { ArrowRightIcon } from '@heroicons/react/24/solid'
+import QuizDetailsa from "../QuizDetailsa/QuizDetailsa";
 
- const Carts = ({ cart }) => {
+
+const Carts = ({ cart }) => {
   console.log(cart);
   const { id, name, logo, total } = cart;
+
+  
+
   return (
     <div>
+      
       <div className="card card-compact w-60 bg-sky-50 shadow-2xl">
         <figure>
           <img className="bg-sky-700" src={logo} alt="" />
