@@ -1,25 +1,22 @@
 
 # Developer Quiz Master
 
-A Project To Make A Educational Website.
+I am Trying To Make A Educational Quiz Website.
 
 
 
 ## Live WebSite
 
-Insert gif or link to demo
-
-- [Live Website Demo](https://developer-quiz-master.netlify.app/)
+- [Live Website](https://developer-quiz-master.netlify.app/)
 ## Screenshots
 
-
-![Screenshot](https://imgbox.com/LuDsP043/468x300?text=Screenshots)
-![Screenshot](https://imgbox.com/VUTB4iTm/468x300?text=Screenshots)
-![Screenshot](https://imgbox.com/pxYkq0Oz/468x300?text=Screenshots)
-![Screenshot](https://imgbox.com/8tSqPHVJ/468x300?text=Screenshots)
-![Screenshot](https://imgbox.com/f85Vpvxi/468x300?text=Screenshots)
-![Screenshot](https://imgbox.com/WvZ5vem2/468x300?text=Screenshots)
-![Screenshot](https://imgbox.com/eI42Wy3z/468x300?text=Screenshots)
+- [Screenshot 1](https://imgbox.com/LuDsP043)
+- [Screenshot 2](https://imgbox.com/VUTB4iTm)
+- [Screenshot 3](https://imgbox.com/pxYkq0Oz)
+- [Screenshot 4](https://imgbox.com/8tSqPHVJ)
+- [Screenshot 5](https://imgbox.com/f85Vpvxi)
+- [Screenshot 6](https://imgbox.com/WvZ5vem2)
+- [Screenshot 7](https://imgbox.com/eI42Wy3z)
 
 
 
@@ -35,18 +32,18 @@ Insert gif or link to demo
 - Dynamic Countdown Based On No Of Questions 
 - Eye Button For Show Correct Answer
 - Toastify For Show Answer, Right or Wrong 
-- Count Number Of Right or Wrong Answer
-- Line Chart And Bar Chart Based On API Data
-- Show Active NavBar Route State
+- Counter For Number of Right or Wrong Answer Show
+- Line Chart And Bar Chart Show, Based On API Data
+- Show Active Nav Route State
 
 
 ## API Reference
 
-- Get all quiz topics (https://openapi.programming-hero.com/api/quiz)
+- [Get All Quiz Topics](https://openapi.programming-hero.com/api/quiz)
 
-- Get topic details by topic id (https://openapi.programming-hero.com/api/quiz/${id})
+- [Get Topic Details By Topic Id](https://openapi.programming-hero.com/api/quiz/${id})
 
-- Example (https://openapi.programming-hero.com/api/quiz/1)
+- [Example](https://openapi.programming-hero.com/api/quiz/1)
 ## CSS Framework Use
 
 - [tailwind CSS](https://tailwindcss.com/)
@@ -66,8 +63,8 @@ Insert gif or link to demo
 ## Icons Use
 
 - [Hero Icons]('https://heroicons.com/')
-## README
+## README File Make
 - [Redme.so]('https://readme.so/editor')
 ## 🚀 About Me
-I'm A Full Stack Junior Developer (https://github.com/mdOmarfaruk151)
+- [Want To Be A Full Stack Junior Developer](https://github.com/mdOmarfaruk151)
 
