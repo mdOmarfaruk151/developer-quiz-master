@@ -62,9 +62,9 @@ I am Trying To Make A Educational Quiz Website.
 - [Unsplash](https://unsplash.com/)
 ## Icons Use
 
-- [Hero Icons]('https://heroicons.com/')
+- [Hero Icons](https://heroicons.com/)
 ## README File Make
-- [Redme.so]('https://readme.so/editor')
+- [Readme.so](https://readme.so/)
 ## 🚀 About Me
 - [Want To Be A Full Stack Junior Developer](https://github.com/mdOmarfaruk151)
 
